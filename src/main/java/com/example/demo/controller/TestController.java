@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/")
     public String hello() {
-        return "Hello WangxtGames";
+        return "Hello WangxtGames,and it has a file download";
     }
 }
